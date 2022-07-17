@@ -1,9 +1,9 @@
 -- Part 1: Test it with SQL
 
 --id int
---employer VARCHAR(255)
---name VARCHAR(255)
---skills VARCHAR(255)
+--employer varchar(255)
+--name varchar(255)
+--skills varchar(255)
 
 -- Part 2: Test it with SQL
 
