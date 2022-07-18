@@ -7,7 +7,12 @@
 <div th:replace="fragments :: page-header"></div>
 
 <div class="container body-content">
-    <h2>TechJobs</h2>
+    <h1>TechJobs</h1>
+    <p>
+        <em>Welcome to TechJobs!</em><br>
+        We hope you will find the perfect job, or assist others in finding it.<br>
+    </p>
+    <h3 th:text="${title + '   ' + '( ' + count + ' )'}"></h3>
     <ul>
         <li th:each="job : ${jobs}">
             <a th:href="@{'/view/' + ${job.id}}" th:text="${job.name}"></a>
